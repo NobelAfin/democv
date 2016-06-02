@@ -1,0 +1,47 @@
+body  section p ul li{
+	text-decoration: none;
+}
+
+.color{
+	background-color: skyblue;
+	color: slategrey;
+}
+
+.head{
+	color: black;
+	background-color: whitesmoke;
+	display: inline-block;
+	text-align:center;
+	width: 100%;
+	margin: 1px;
+	padding: 1px;
+	display: block;
+}
+
+.imgh{
+	position: absolute;
+	top: 53px;
+	right:100px;
+}
+
+@media (max-width:300px) and (min-width:600px) {
+	body{
+		background-color: skyblue;
+	}
+}
+ @media (min-width: 900px){
+    body{
+        background-color: skyblue;
+    }
+}
+	
+.imgc{
+	position: relative;
+	margin: 0 auto;
+	float: right;
+}
+
+.limg{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
